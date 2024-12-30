@@ -105,8 +105,8 @@ body {
 .content p {
   font: 400 0.9375rem Outfit, serif;
   line-height: 140%;
-  letter-spacing: 0.2px;
-  padding: 16px 16px 0 16px;
+  letter-spacing: 0.0125em;
+  margin: 16px;
   text-align: center;
   color: hsl(216, 15%, 48%);
 }
