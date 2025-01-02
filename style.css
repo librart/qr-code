@@ -82,27 +82,32 @@ body {
   justify-content: center;
   background-color: hsl(212, 45%, 89%);
 }
-.container {
+
+.card {
   max-width: 20rem;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
   padding: 16px;
 }
-.qr-code img {
+
+.card img {
   aspect-ratio: 1;
   border-radius: 10px;
 }
-.content {
+
+.card .content {
   margin: 24px auto;
 }
-.content h2 {
+
+.card .content h2 {
   font: 700 1.375rem Outfit, serif;
   line-height: 120%;
   letter-spacing: 0;
   text-align: center;
   color: hsl(218, 44%, 22%);
 }
-.content p {
+
+.card .content p {
   font: 400 0.9375rem Outfit, serif;
   line-height: 140%;
   letter-spacing: 0.0125em;
@@ -110,10 +115,12 @@ body {
   text-align: center;
   color: hsl(216, 15%, 48%);
 }
+
 .attribution {
   font-size: 0.6875rem;
-  padding: 16px 0;
+  margin: 16px;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
